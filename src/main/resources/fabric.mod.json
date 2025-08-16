@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "calendar-clock-mod",
+  "version": "${version}",
+  "name": "Calendar Clock Mod",
+  "description": "A lightweight time and calendar utility mod for Minecraft",
+  "authors": ["dammnranaah"],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/yourusername/calendar-clock-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rana.calendarclock.CalendarClockMod"]
+  },
+  "mixins": ["calendar-clock-mod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
